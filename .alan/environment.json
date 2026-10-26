@@ -1,0 +1,6 @@
+{
+  "packages": { "apt": ["curl", "unzip"] },
+  "env": {},
+  "secrets": {},
+  "install": [{ "name": "setup", "run": "bash .alan/setup.sh" }]
+}
